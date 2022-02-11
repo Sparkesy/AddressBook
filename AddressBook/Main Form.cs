@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace AddressBook
 {
-    public partial class Form1 : Form
+    public partial class Contacts : Form
     {
-        public Form1()
+        public Contacts()
         {
             InitializeComponent();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }
